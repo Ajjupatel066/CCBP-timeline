@@ -1,0 +1,66 @@
+/* Write your CSS here */
+.project-card {
+  width: 100%;
+  height: 100%;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.project-img {
+  width: 100%;
+}
+
+.heading-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.project-card-title {
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #171f46;
+}
+.duration-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .project-card-title {
+    font-size: 18px;
+  }
+  .heading-section {
+    flex-direction: column;
+  }
+  .duration-container {
+    justify-content: flex-start;
+  }
+}
+
+.duration-text {
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #171f46;
+  margin-left: 6px;
+}
+
+.project-description {
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: #1e293b;
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 10px;
+}
+
+.link-text {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 18px;
+  color: #0967d2;
+  text-decoration: none;
+}

@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1110px;
+  height: 100vh;
+}
+
+.heading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.heading-label {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  color: #171f46;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 600;
+  color: #0967d2;
+}
+@media screen and (min-width: 768px) {
+  .heading-label {
+    font-size: 20px;
+  }
+  .heading {
+    font-size: 30px;
+  }
+}
